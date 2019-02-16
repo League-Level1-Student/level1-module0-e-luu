@@ -28,7 +28,7 @@ public class PhotoQuiz {
 		// 2. create a variable of type "Component" that will hold your image
 		Component corgi = createImage(image);
 		// 3. use the "createImage()" method below to initialize your Component
-
+		quizWindow.setSize(500, 500);
 		// 4. add the image to the quiz window
 		quizWindow.add(corgi);
 		// 5. call the pack() method on the quiz window
